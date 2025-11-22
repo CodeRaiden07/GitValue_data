@@ -32,3 +32,6 @@ git add ./
 
 and git commit -m "message"
 
+## to get the commit logs use below command
+
+git log
