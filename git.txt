@@ -35,3 +35,17 @@ and git commit -m "message"
 ## to get the commit logs use below command
 
 git log
+
+## to checkout to last or anyother commit 
+
+git checkout <hashvalue> "from the logs"
+
+## to come back to the orginal state 
+
+git checkout main 
+git checkout -f main  (for forceful off)
+
+
+## to create a new branch 
+
+git branch branch-name
