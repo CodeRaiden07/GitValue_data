@@ -1,0 +1,34 @@
+##to config the user and email for who is using the code change 
+
+git config --global user.name "username"
+git config --global user.email "Email id"
+
+## to initialize the git repo use below command
+
+git init
+
+## to change the brench from master to main use below command
+
+git config --global inint.defaultBrench main
+
+
+## To get the status of the files which are not committed in he gitrepo we can check with below command
+
+git status
+
+## To track the files which are going to be committed us below command
+
+git add filename
+
+## to commit the changes use below command
+
+git commit -m "Message to display for the commit"
+
+-m for adding message tag
+
+## to add all the files and folder for the project use below command
+
+git add ./
+
+and git commit -m "message"
+
